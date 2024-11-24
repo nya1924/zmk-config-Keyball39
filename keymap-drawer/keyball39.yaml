@@ -32,7 +32,7 @@ layers:
   - END
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: LANG HIRAGANA, h: Sft+ LANGUAGE 1}
+  - {t: LANGUAGE 4, h: Sft+ LANGUAGE 1}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
