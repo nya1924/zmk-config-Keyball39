@@ -38,7 +38,7 @@ layers:
   - {t: Alt+ `, h: SCROLL, s: Alt+ ~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - B
+  - $$mdi:bluetooth-off$$
   NUM:
   - '1'
   - '2'
