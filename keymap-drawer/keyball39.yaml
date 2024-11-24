@@ -19,7 +19,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - HOME
   - Z
   - X
   - C
@@ -29,10 +29,10 @@ layers:
   - M
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: /, s: '?'}
+  - END
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: LANGUAGE 2, h: Sft+ LANGUAGE 1}
+  - {t: LANG ZENKAKUHANKAKU, h: Sft+ LANGUAGE 1}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -65,8 +65,8 @@ layers:
   - '2'
   - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: HOME, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: END, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: PgDn, h: '$$mdi:gesture-tap-hold$$'}
