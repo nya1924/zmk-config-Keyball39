@@ -74,10 +74,10 @@
         layer1 {
             label = "NUM";
             bindings = <
-&none   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &none                                  &none           &sk UP_ARROW  &none            &none     &none
-&none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none                                  &sk LEFT_ARROW  &sk DOWN      &sk RIGHT_ARROW  &none     &sk PAGE_UP
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none                                  &sk HOME        &sk END       &mkp MB1         &mkp MB2  &sk PAGE_DOWN
-&trans  &kp NUMBER_0  &trans        &trans        &trans  &trans  &mt RIGHT_SHIFT ENTER  &kp DELETE                                               &trans
+&none   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &none                                  &none          &none           &kp UP_ARROW    &none            &none
+&none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none                                  &none          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &sk PAGE_UP
+&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none                                  &sk HOME       &sk END         &mkp MB1        &mkp MB2         &sk PAGE_DOWN
+&trans  &kp NUMBER_0  &trans        &trans        &trans  &trans  &mt RIGHT_SHIFT ENTER  &kp BACKSPACE                                                   &trans
             >;
         };
 
