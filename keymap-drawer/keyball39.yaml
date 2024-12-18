@@ -113,9 +113,9 @@ layers:
   - {t: '`', s: '~'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - INT MUHENKAN
+  - LANGUAGE 1
   - Sft+CLCK
-  - INTERNATIONAL 4
+  - '&Hiragana'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SCROLL, h: toggle}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SCROLL}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: SYMBOL, h: toggle}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SYMBOL}
   - {t: '$$mdi:transfer$$', type: trans}
