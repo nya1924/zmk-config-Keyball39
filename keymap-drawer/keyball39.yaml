@@ -114,8 +114,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - LANGUAGE 1
+  - LANGUAGE 2
   - Sft+CLCK
-  - '&Hiragana'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
