@@ -11,14 +11,14 @@ layers:
   - O
   - P
   - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: G, h: INT MUHENKAN}
+  - {t: H, h: INT KANA}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '-', s: _}
   - Z
   - X
@@ -30,8 +30,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - _
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Z
+  - Ctl+Y
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
@@ -45,7 +45,7 @@ layers:
   - '8'
   - '9'
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - HOME
   - {t: '$$mdi:arrow-up-bold$$', h: 'Gui+$$mdi:arrow-up-bold$$'}
   - END
@@ -75,7 +75,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
