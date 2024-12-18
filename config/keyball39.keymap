@@ -10,7 +10,8 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -64,10 +65,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q      &kp W           &kp E             &kp R               &kp T                                                                 &kp Y                &kp U                &kp I              &kp O            &kp P
-&kp A      &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &mt LANGUAGE_1 G                                                      &mt LANG_HIRAGANA H  &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp MINUS
-&kp Z      &kp X           &kp C             &kp V               &kp B                                                                 &kp N                &kp M                &kp COMMA          &kp DOT          &kp UNDERSCORE
-&kp LC(Z)  &kp LC(Y)       &kp LEFT_ALT      &mt LEFT_GUI TAB    &lt 1 SPACE       &mt LEFT_CONTROL DELETE  &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER                                                                   &kp ESC
+&kp Q      &kp W           &kp E             &kp R               &kp T                                                                   &kp Y             &kp U                &kp I              &kp O            &kp P
+&kp A      &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &mt INT_MUHENKAN G                                                      &mt INT_HENKAN H  &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &kp MINUS
+&kp Z      &kp X           &kp C             &kp V               &kp B                                                                   &kp N             &kp M                &kp COMMA          &kp DOT          &kp UNDERSCORE
+&kp LC(Z)  &kp LC(Y)       &kp LEFT_ALT      &mt LEFT_GUI TAB    &lt 1 SPACE         &mt LEFT_CONTROL DELETE  &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER                                                                &kp ESC
             >;
         };
 
@@ -84,10 +85,10 @@
         symbol_layer {
             label = "SYMBOL";
             bindings = <
-&kp PERCENT      &kp CARET    &kp LEFT_BRACKET  &kp NON_US_BACKSLASH  &kp PIPE                           &kp QUESTION   &kp SLASH              &kp RIGHT_BRACKET  &kp ASTERISK  &kp EQUAL
-&kp EXCLAMATION  &kp AT_SIGN  &kp LESS_THAN     &kt LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                  &kp SQT        &kp RIGHT_PARENTHESIS  &kp GREATER_THAN   &kp PLUS      &kp MINUS
-&kp HASH         &kp DOLLAR   &kp AMPERSAND     &kp LEFT_BRACE        &kp COLON                          &kp SEMICOLON  &kp RIGHT_BRACE        &kp COMMA          &kp PERIOD    &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &trans            &trans                &trans             &trans  &trans  &trans                                                                 &trans
+&kp PERCENT      &kp CARET    &kp LEFT_BRACKET  &kp NON_US_BACKSLASH  &kp PIPE                                   &kp QUESTION   &kp SLASH              &kp RIGHT_BRACKET  &kp ASTERISK  &kp EQUAL
+&kp EXCLAMATION  &kp AT_SIGN  &kp LESS_THAN     &kt LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                          &kp SQT        &kp RIGHT_PARENTHESIS  &kp GREATER_THAN   &kp PLUS      &kp MINUS
+&kp HASH         &kp DOLLAR   &kp AMPERSAND     &kp LEFT_BRACE        &kp COLON                                  &kp SEMICOLON  &kp RIGHT_BRACE        &kp COMMA          &kp PERIOD    &kp UNDERSCORE
+&kp GRAVE        &kp TILDE    &trans            &trans                &kp INT_MUHENKAN   &kp INT_HENKAN  &trans  &trans                                                                 &trans
             >;
         };
 
