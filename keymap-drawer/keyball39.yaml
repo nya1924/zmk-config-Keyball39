@@ -14,8 +14,8 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: INT MUHENKAN}
-  - {t: H, h: INT KANA}
+  - {t: G, h: LANGUAGE 1}
+  - {t: H, h: LANG HIRAGANA}
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
