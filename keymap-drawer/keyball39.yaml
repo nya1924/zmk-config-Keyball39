@@ -19,14 +19,14 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '-', h: SCROLL, s: _}
+  - {t: '-', s: _}
   - Z
   - X
   - C
   - V
   - B
   - N
-  - M
+  - {t: M, h: SCROLL}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
@@ -59,14 +59,14 @@ layers:
   - {t: '$$mdi:arrow-left-bold$$', h: 'Gui+$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: 'Gui+$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: 'Gui+$$mdi:arrow-right-bold$$'}
-  - {t: '$$mdi:volume-low$$', type: held}
+  - $$mdi:volume-low$$
   - '0'
   - '1'
   - '2'
   - '3'
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PG UP
+  - {t: PG UP, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - MUTE
