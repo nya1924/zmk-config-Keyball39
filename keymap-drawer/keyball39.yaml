@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - Q
@@ -126,7 +127,7 @@ layers:
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - CLCK
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
