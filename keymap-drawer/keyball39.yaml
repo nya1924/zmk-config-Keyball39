@@ -127,7 +127,7 @@ layers:
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - CLCK
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
