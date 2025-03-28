@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -74,9 +75,9 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp ASTERISK  &kp NUMBER_7           &kp NUMBER_8             &kp NUMBER_9               &kp EQUAL                    &mt LG(PRINTSCREEN) PRINTSCREEN  &kp HOME                       &mt RG(UP_ARROW) UP_ARROW      &kp END                          &kt C_VOLUME_UP
-&kp SLASH     &mt LEFT_ALT NUMBER_4  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_6  &kp MINUS                    &none                            &mt RG(LEFT_ARROW) LEFT_ARROW  &mt RG(DOWN_ARROW) DOWN_ARROW  &mt RG(RIGHT_ARROW) RIGHT_ARROW  &kp C_VOLUME_DOWN
-&kp NUMBER_0  &kp NUMBER_1           &kp NUMBER_2             &kp NUMBER_3               &kp PERIOD                   &none                            &kp PG_UP                      &trans                         &kp PAGE_DOWN                    &kp K_MUTE
+&kp ASTERISK  &kp NUMBER_7           &kp NUMBER_8             &kp NUMBER_9               &kp EQUAL                    &mt LG(PRINTSCREEN) PRINTSCREEN  &kp HOME                       &mt RG(UP_ARROW) UP_ARROW      &kp END                          &none
+&kp SLASH     &mt LEFT_ALT NUMBER_4  &mt LEFT_SHIFT NUMBER_5  &mt LEFT_CONTROL NUMBER_6  &kp MINUS                    &none                            &mt RG(LEFT_ARROW) LEFT_ARROW  &mt RG(DOWN_ARROW) DOWN_ARROW  &mt RG(RIGHT_ARROW) RIGHT_ARROW  &none
+&kp NUMBER_0  &kp NUMBER_1           &kp NUMBER_2             &kp NUMBER_3               &kp PERIOD                   &none                            &kp PG_UP                      &trans                         &kp PAGE_DOWN                    &none
 &trans        &trans                 &trans                   &trans                     &trans      &none  &mkp MB4  &mkp MB5                                                                                                                        &trans
             >;
         };
@@ -94,9 +95,9 @@
         function_layer {
             label = "FUNCTION";
             bindings = <
-&kp F12  &kp F7  &kp F8  &kp F9        &none                 &kp CLCK  &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1   &none
-&kp F11  &kp F4  &kp F5  &kp F6        &none                 &none     &kp RCTRL   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &none
-&kp F10  &kp F1  &kp F2  &kp F3        &none                 &none     &none       &none            &none          &none
+&kp F12  &kp F7  &kp F8  &kp F9        &none                 &kp CLCK  &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1   &kp C_VOL_UP
+&kp F11  &kp F4  &kp F5  &kp F6        &none                 &none     &kp RCTRL   &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp C_VOLUME_DOWN
+&kp F10  &kp F1  &kp F2  &kp F3        &none                 &none     &none       &none            &none          &kp K_MUTE
 &trans   &trans  &trans  &kp LEFT_GUI  &none  &trans  &none  &none                                                 &trans
             >;
         };
