@@ -12,14 +12,14 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - J
+  - K
+  - L
   - {t: '-', s: _}
   - Z
   - X
@@ -48,18 +48,18 @@ layers:
   - {t: '=', s: +}
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - HOME
-  - {t: '$$mdi:arrow-up-bold$$', h: 'Gui+$$mdi:arrow-up-bold$$'}
+  - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '-', s: _}
+  - {t: '-', h: LEFT WIN, s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:arrow-left-bold$$', h: 'Gui+$$mdi:arrow-left-bold$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: 'Gui+$$mdi:arrow-down-bold$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: 'Gui+$$mdi:arrow-right-bold$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '0'
   - '1'
@@ -150,7 +150,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - MUTE
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
